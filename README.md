@@ -6,14 +6,14 @@ This dataset contains information on global layoffs collected from publicly avai
 
 Cleaning the data ensures accuracy and reliability for exploratory data analysis (EDA), visualization, and future modeling.
 
-#2. Goals
+# 2. Goals
  1.Remove duplicate records
 2.Standardize formatting and data types
 3.Address NULL/blank values
 4.Drop unnecessary or redundant columns
 5.Prepare a clean, analysis-ready dataset
 
-ä3. Steps
+# 3. Steps
 1.Created a backup copy of the raw dataset to preserve the original.
 2.Created a second staging table for cleaning and comparison throughout the process without disturbing the raw dataset.
 3.Identified and removed duplicates using ROW_NUMBER() window function.
@@ -24,12 +24,12 @@ Cleaning the data ensures accuracy and reliability for exploratory data analysis
 -leaving remaining NULLs where no valid assumption was possible
 -Dropped unnecessary columns, including temporary columns created during the cleaning process.
 
-#4. Files Uploaded
+# 4. Files Uploaded
 1.raw data = layoffs.csv (2361 X 9)
 2.SQL code = data_cleaning.SQL
 3.cleaned data = layoff_staging2.csv (2356 X 9)
 
-#5. Tools and Queries Used
+# 5. Tools and Queries Used
 1.Platform: MySQL Workbench
 2.SQL Concepts:
 -CTEs
@@ -38,7 +38,7 @@ Cleaning the data ensures accuracy and reliability for exploratory data analysis
 -String functions (TRIM, STR_TO_DATE)
 -Version Control: Git & GitHub
 
-#6. Skills Demonstrated
+# 6. Skills Demonstrated
 
 1.SQL Data Cleaning
 2.Window Functions
