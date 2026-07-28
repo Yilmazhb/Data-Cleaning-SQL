@@ -8,7 +8,9 @@ Cleaning the data ensures accuracy and reliability for exploratory data analysis
 
 # 2. Goals
 1.Remove duplicate records
+
 2.Standardize formatting and data types
+
 3.Address NULL/blank values
 4.Drop unnecessary or redundant columns
 5.Prepare a clean, analysis-ready dataset
