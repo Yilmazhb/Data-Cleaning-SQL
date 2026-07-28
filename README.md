@@ -7,7 +7,7 @@ This dataset contains information on global layoffs collected from publicly avai
 Cleaning the data ensures accuracy and reliability for exploratory data analysis (EDA), visualization, and future modeling.
 
 # 2. Goals
- 1.Remove duplicate records
+1.Remove duplicate records
 2.Standardize formatting and data types
 3.Address NULL/blank values
 4.Drop unnecessary or redundant columns
