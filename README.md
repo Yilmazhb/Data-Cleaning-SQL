@@ -1,6 +1,6 @@
 #  Layoffs Data Cleaning Project
 
-1. What is this dataset and why does it require cleaning?
+# 1. What is this dataset and why does it require cleaning?
 This dataset contains information on global layoffs collected from publicly available sources. It allows analysis of layoff patterns across geography, funding levels, industry and company maturity in the time period of 2020 to 2023 (COVID and post-COVID era).
 
 Cleaning the data ensures accuracy and reliability for exploratory data analysis (EDA), visualization, and future modeling.
